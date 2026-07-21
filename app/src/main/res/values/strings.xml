@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gallery</string>
+    <string name="settings_title">Pengaturan Tampilan</string>
+    <string name="refresh">Refresh</string>
+    <string name="scanning">Memindai folder…</string>
+    <string name="no_media_found">Tidak ada foto atau video ditemukan di folder Download</string>
+    <string name="close">Tutup</string>
+
+    <string name="pref_auto_coloring_title">Auto Coloring</string>
+    <string name="pref_auto_coloring_desc">Automatically pick player colors from current artwork. Might affect performance</string>
+
+    <string name="pref_blur_title">Enable Blur Effect</string>
+    <string name="pref_blur_desc">Might affect performance</string>
+
+    <string name="pref_glow_title">Enable Glow Effect</string>
+    <string name="pref_glow_desc">Might affect performance</string>
+
+    <string name="pref_parallax_title">Enable Parallax Effect</string>
+    <string name="pref_parallax_desc">Might affect performance</string>
+</resources>

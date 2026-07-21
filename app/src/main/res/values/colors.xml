@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_bg">#141110</color>
+    <color name="card_bg">#1F1B19</color>
+    <color name="thumb_bg">#2A2523</color>
+    <color name="text_primary">#F2E9E4</color>
+    <color name="text_secondary">#B8ACA5</color>
+    <color name="accent_gold">#D9B48A</color>
+    <color name="switch_on">#D9B48A</color>
+    <color name="switch_off">#4A423D</color>
+</resources>
