@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Only shown when the page currently open is a photo (hidden for
+         videos at runtime in ViewerActivity.showViewerMenu). -->
+    <item
+        android:id="@+id/action_crop_current"
+        android:title="@string/action_crop" />
+    <!-- Only shown when the page currently open is a video (hidden for
+         photos at runtime in ViewerActivity.showViewerMenu). -->
+    <item
+        android:id="@+id/action_capture_frame_current"
+        android:title="@string/action_capture_frame" />
+    <item
+        android:id="@+id/action_delete_current"
+        android:title="@string/action_delete" />
+</menu>

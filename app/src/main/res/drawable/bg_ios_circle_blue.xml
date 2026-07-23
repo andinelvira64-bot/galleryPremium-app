@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Despite the filename (kept as-is so every layout referencing it doesn't
+     need to change), this is now the "liquid glass" circular button
+     background used app-wide: back/close, menu, crop, and frame-capture
+     buttons. Still a plain circle, just styled as frosted glass instead of
+     solid iOS blue - a soft diagonal gradient fill, a soft glossy highlight
+     near the top-left, and a thin translucent edge stroke. -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/glass_ripple">
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <gradient
+                        android:type="linear"
+                        android:angle="135"
+                        android:startColor="@color/glass_fill_light"
+                        android:endColor="@color/glass_fill_dark" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="oval">
+                    <gradient
+                        android:type="radial"
+                        android:gradientRadius="26dp"
+                        android:centerX="0.3"
+                        android:centerY="0.22"
+                        android:startColor="@color/glass_highlight"
+                        android:endColor="@color/glass_highlight_transparent" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@android:color/transparent" />
+                    <stroke
+                        android:width="1dp"
+                        android:color="@color/glass_stroke" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</ripple>

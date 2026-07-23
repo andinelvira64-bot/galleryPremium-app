@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="84dp"
+    android:layout_height="84dp"
+    android:layout_marginEnd="10dp">
+
+    <ImageView
+        android:id="@+id/ivCapturedThumb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@color/thumb_bg" />
+
+    <TextView
+        android:id="@+id/tvCapturedNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:layout_margin="4dp"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:background="#88000000"
+        android:textColor="@color/text_primary"
+        android:textSize="11sp" />
+
+    <ImageButton
+        android:id="@+id/btnRemoveCapturedFrame"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:background="#CC000000"
+        android:src="@drawable/ic_close_white"
+        android:contentDescription="@string/frame_capture_remove_desc" />
+
+</FrameLayout>

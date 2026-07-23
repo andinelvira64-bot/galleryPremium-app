@@ -1,0 +1,27 @@
+# Build
+*.log
+*.jks
+*.keystore
+*.key
+keys/
+.gradle/
+build/
+app/build/
+local.properties
+
+# Android Studio
+.idea/
+.DS_Store
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
+# Visual Studio Code
+.vscode/
+
+# Other
+thumbs.db
+desktop.ini

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/cropImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter" />
+
+    <com.elvira.gallery.CropOverlayView
+        android:id="@+id/cropOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/btnCropCancel"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|start"
+        android:layout_margin="14dp"
+        android:padding="8dp"
+        android:background="@drawable/bg_ios_circle_blue"
+        android:src="@drawable/ic_back_chevron_white"
+        android:elevation="4dp"
+        android:contentDescription="@string/crop_cancel_desc" />
+
+    <ImageButton
+        android:id="@+id/btnCropConfirm"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="14dp"
+        android:padding="8dp"
+        android:background="@drawable/bg_ios_circle_blue"
+        android:src="@drawable/ic_check_white"
+        android:elevation="4dp"
+        android:contentDescription="@string/crop_confirm_desc" />
+
+    <LinearLayout
+        android:id="@+id/aspectBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingVertical="16dp">
+
+        <TextView
+            android:id="@+id/btnAspectFree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="8dp"
+            android:text="@string/crop_aspect_free"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:background="@drawable/bg_ios_circle_blue" />
+
+        <TextView
+            android:id="@+id/btnAspectSquare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="8dp"
+            android:text="@string/crop_aspect_square"
+            android:textColor="#B8ACA5"
+            android:textSize="14sp"
+            android:background="@android:color/transparent" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/cropProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</FrameLayout>

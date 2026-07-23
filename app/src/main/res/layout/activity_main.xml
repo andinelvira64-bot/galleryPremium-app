@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="2dp" />
+
+    <TextView
+        android:id="@+id/emptyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/text_secondary"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <!-- Quick photo/video filter toggle. Hidden by default; fades in while the
+         grid is being scrolled and fades back out a moment after it stops,
+         so it's there to tap right after you finish scrolling. -->
+    <ImageButton
+        android:id="@+id/btnFilterType"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="66dp"
+        android:padding="10dp"
+        android:background="@drawable/bg_ios_circle_blue"
+        android:src="@drawable/ic_photo_filter"
+        android:elevation="4dp"
+        android:alpha="0"
+        android:visibility="gone"
+        android:contentDescription="@string/filter_button_show_photos" />
+
+    <!-- Main menu: Settings, Refresh, YouTube. Always visible - this is the
+         only way to reach those, since this screen's theme has no
+         Toolbar/ActionBar of its own to show them in. -->
+    <ImageButton
+        android:id="@+id/btnMainMenu"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="14dp"
+        android:padding="10dp"
+        android:background="@drawable/bg_ios_circle_blue"
+        android:src="@drawable/ic_more_vert_white"
+        android:elevation="4dp"
+        android:contentDescription="@string/settings_title" />
+
+</FrameLayout>

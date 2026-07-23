@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- Oversized so it can shift a little for the parallax effect
+         without revealing edges -->
+    <ImageView
+        android:id="@+id/backgroundLayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="-40dp"
+        android:scaleType="centerCrop"
+        android:alpha="0.55" />
+
+    <View
+        android:id="@+id/glowOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/btnClose"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|start"
+        android:layout_margin="14dp"
+        android:padding="8dp"
+        android:background="@drawable/bg_ios_circle_blue"
+        android:src="@drawable/ic_back_chevron_white"
+        android:elevation="4dp"
+        android:contentDescription="@string/close" />
+
+    <ImageButton
+        android:id="@+id/btnMenu"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="14dp"
+        android:padding="8dp"
+        android:background="@drawable/bg_ios_circle_blue"
+        android:src="@drawable/ic_more_vert_white"
+        android:elevation="4dp"
+        android:contentDescription="@string/viewer_menu" />
+
+</FrameLayout>

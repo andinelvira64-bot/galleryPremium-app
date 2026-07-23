@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="audio_app_name">ASsound</string>
+    
+    <!-- Notification -->
+    <string name="notification_channel_name">Audio Processing</string>
+    <string name="notification_channel_description">Shows when ASsound is actively processing audio</string>
+    <string name="notification_title">ASsound Audio</string>
+    <string name="notification_text_active">Audio processing active</string>
+    <string name="notification_text_disabled">Audio processing disabled</string>
+    <string name="notification_action_enable">Enable</string>
+    <string name="notification_action_disable">Disable</string>
+    
+    <!-- Home Screen -->
+    <string name="home_title">ASsound</string>
+    <string name="home_audio_engine_active">Audio Engine Active</string>
+    <string name="home_audio_engine_disabled">Disabled</string>
+    <string name="home_current_profile">Current Profile</string>
+    <string name="home_no_profile">None Selected</string>
+    
+    <!-- Equalizer -->
+    <string name="eq_equalizer_title">Equalizer</string>
+    <string name="equalizer_custom">Custom Equalizer</string>
+    <string name="equalizer_reset">Reset</string>
+    <string name="equalizer_presets">Quick Presets</string>
+    
+    <!-- Profiles -->
+    <string name="profiles_title">Sound Profiles</string>
+    <string name="profiles_all">All</string>
+    <string name="profiles_signature">Signature</string>
+    <string name="profiles_music">Music</string>
+    <string name="profiles_media">Media</string>
+    <string name="profiles_spatial">Spatial</string>
+    <string name="profiles_custom">Custom</string>
+    <string name="profiles_save_dialog_title">Save Custom Profile</string>
+    <string name="profiles_save_dialog_hint">Profile Name</string>
+    
+    <!-- Advanced -->
+    <string name="advanced_title">Advanced DSP</string>
+    <string name="advanced_bass_boost">Bass Boost</string>
+    <string name="advanced_bass_boost_desc">Enhance low frequencies</string>
+    <string name="advanced_virtualizer">3D Virtualizer</string>
+    <string name="advanced_virtualizer_desc">Create immersive spatial audio</string>
+    <string name="advanced_reverb">Reverb</string>
+    <string name="advanced_reverb_desc">Add room ambience</string>
+    <string name="advanced_loudness">Loudness Enhancer</string>
+    <string name="advanced_loudness_desc">Boost perceived loudness</string>
+    <string name="advanced_stereo">Stereo Width</string>
+    <string name="advanced_stereo_desc">Adjust stereo separation</string>
+    <string name="advanced_dialog">Dialog Enhancement</string>
+    <string name="advanced_dialog_desc">Improve voice clarity</string>
+    
+    <!-- Settings -->
+    <string name="eq_settings_title">Settings</string>
+    <string name="settings_audio_engine">Audio Engine</string>
+    <string name="settings_interface">Interface</string>
+    <string name="settings_visualizer">Show Visualizer</string>
+    <string name="settings_haptic">Haptic Feedback</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version</string>
+    
+    <!-- General -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+
+    <!-- Merged from GalleryApp -->
+<string name="app_name">Gallery</string>
+    <string name="settings_title">Pengaturan Tampilan</string>
+    <string name="refresh">Refresh</string>
+    <string name="scanning">Memindai folder…</string>
+    <string name="no_media_found">Tidak ada foto atau video ditemukan di penyimpanan</string>
+    <string name="close">Tutup</string>
+    <string name="viewer_menu">Menu lainnya</string>
+    <string name="delete_confirm_message_single">File ini akan dihapus langsung dari penyimpanan HP, bukan cuma dari galeri ini. Tindakan ini tidak bisa dibatalkan.</string>
+
+    <string name="pref_auto_coloring_title">Auto Coloring</string>
+    <string name="pref_auto_coloring_desc">Automatically pick player colors from current artwork. Might affect performance</string>
+
+    <string name="pref_blur_title">Enable Blur Effect</string>
+    <string name="pref_blur_desc">Might affect performance</string>
+
+    <string name="pref_glow_title">Enable Glow Effect</string>
+    <string name="pref_glow_desc">Might affect performance</string>
+
+    <string name="pref_parallax_title">Enable Parallax Effect</string>
+    <string name="pref_parallax_desc">Might affect performance</string>
+
+    <string name="action_move">Pindahkan ke folder lain</string>
+    <string name="action_select_all">Pilih Semua</string>
+    <string name="action_info">Info file</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_wallpaper">Jadikan wallpaper</string>
+    <string name="action_crop">Potong Foto</string>
+
+    <string name="selected_count">%1$d dipilih</string>
+    <string name="selected_breakdown">Foto: %1$d  •  Video: %2$d</string>
+    <string name="pick_target_folder_hint">Pilih folder tujuan (bisa juga folder di kartu SD)</string>
+    <string name="move_success">%1$d file dipindahkan</string>
+    <string name="move_partial_fail">%1$d berhasil, %2$d gagal dipindahkan</string>
+
+    <string name="delete_confirm_title">Hapus permanen?</string>
+    <string name="delete_confirm_message">%1$d file akan dihapus langsung dari penyimpanan HP, bukan cuma dari galeri ini. Tindakan ini tidak bisa dibatalkan.</string>
+    <string name="delete_cancel">Batal</string>
+    <string name="delete_yes">Hapus</string>
+    <string name="delete_success">%1$d file berhasil dihapus</string>
+    <string name="delete_partial_fail">%1$d berhasil dihapus, %2$d gagal</string>
+    <string name="delete_partial_fail_single">Gagal menghapus file ini</string>
+
+    <string name="sdcard_permission_title">Izin akses kartu SD diperlukan</string>
+    <string name="sdcard_permission_message">%1$d file ada di kartu SD dan HP ini butuh izin tambahan untuk benar-benar menghapusnya. Pilih folder kartu SD di layar berikutnya (cukup sekali saja, tidak akan ditanya lagi setelah ini).</string>
+    <string name="sdcard_permission_grant">Pilih folder</string>
+
+    <string name="wallpaper_dialog_title">Jadikan wallpaper untuk</string>
+    <string name="wallpaper_home">Layar Beranda</string>
+    <string name="wallpaper_lock">Layar Kunci</string>
+    <string name="wallpaper_both">Keduanya (Beranda &amp; Kunci)</string>
+    <string name="wallpaper_success">Wallpaper berhasil diterapkan</string>
+    <string name="wallpaper_failed">Gagal menerapkan wallpaper</string>
+    <string name="wallpaper_only_photo">Set wallpaper hanya berlaku untuk 1 foto (bukan video)</string>
+
+    <string name="file_info_message">Nama: %1$s\n\nLokasi folder: %2$s</string>
+    <string name="ok">OK</string>
+
+    <string name="filter_button_show_photos">Tampilkan hanya foto</string>
+    <string name="filter_button_show_videos">Tampilkan hanya video</string>
+    <string name="filter_button_show_all">Tampilkan semua</string>
+    <string name="filter_toast_photos_only">Menampilkan hanya foto</string>
+    <string name="filter_toast_videos_only">Menampilkan hanya video</string>
+    <string name="filter_toast_all">Menampilkan semua foto dan video</string>
+    <string name="no_photos_found">Tidak ada foto di folder ini</string>
+    <string name="no_videos_found">Tidak ada video di folder ini</string>
+
+    <string name="video_play">Putar</string>
+    <string name="video_pause">Jeda</string>
+    <string name="video_rewind">Mundur 10 detik</string>
+    <string name="video_forward">Maju 10 detik</string>
+    <string name="video_fullscreen_enter">Tonton layar penuh (landscape)</string>
+    <string name="video_fullscreen_exit">Keluar dari layar penuh</string>
+
+    <string name="crop_cancel_desc">Batal potong foto</string>
+    <string name="crop_confirm_desc">Terapkan potongan</string>
+    <string name="crop_aspect_free">Bebas</string>
+    <string name="crop_aspect_square">1:1</string>
+    <string name="crop_saving">Menyimpan hasil potongan…</string>
+    <string name="crop_success">Foto berhasil dipotong</string>
+    <string name="crop_failed">Gagal memotong foto ini</string>
+    <string name="crop_load_failed">Gagal membuka foto untuk dipotong</string>
+    <string name="crop_permission_needed_title">Izin akses folder diperlukan</string>
+    <string name="crop_permission_needed_message">Foto ini ada di kartu SD dan HP ini butuh izin tambahan untuk menyimpan hasil potongan. Pilih folder kartu SD di layar berikutnya.</string>
+    <string name="crop_permission_grant">Pilih folder</string>
+
+    <string name="action_capture_frame">Ambil frame</string>
+    <string name="frame_capture_title">Ambil Frame Video</string>
+    <string name="frame_capture_close_desc">Tutup ambil frame</string>
+    <string name="frame_capture_capture_btn">Tangkap</string>
+    <string name="frame_capture_save_btn">Simpan</string>
+    <string name="frame_capture_none_yet">Belum ada frame ditangkap. Geser garis waktu, lalu tekan Tangkap.</string>
+    <string name="frame_capture_count">Frame ditangkap (%1$d)</string>
+    <string name="frame_capture_remove_desc">Hapus frame ini dari daftar tangkapan</string>
+    <string name="frame_capture_saving">Menyimpan frame\u2026</string>
+    <string name="frame_capture_success">%1$d frame berhasil disimpan sebagai foto. Video aslinya tidak berubah.</string>
+    <string name="frame_capture_partial_fail">%1$d berhasil disimpan, %2$d gagal</string>
+    <string name="frame_capture_failed">Gagal menyimpan frame</string>
+    <string name="frame_capture_load_failed">Gagal membuka video ini untuk diambil frame-nya</string>
+    <string name="open_external_failed">Tidak bisa membuka file ini</string>
+    <string name="action_youtube">YouTube</string>
+    <string name="youtube_reload">Muat ulang</string>
+    <string name="youtube_blocked_domain">Halaman ini bukan bagian dari YouTube, jadi tidak dibuka</string>
+    <string name="youtube_login_note">Kalau Google menolak login di sini, itu memang pembatasan keamanan dari Google sendiri terhadap semua browser tertanam (bukan dari aplikasi ini) \u2014 nonton video tanpa login tetap bisa seperti biasa.</string>
+    <string name="frame_capture_permission_needed_title">Izin akses folder diperlukan</string>
+    <string name="frame_capture_permission_needed_message">Video ini ada di kartu SD dan HP ini butuh izin tambahan untuk menyimpan hasil frame. Pilih folder kartu SD di layar berikutnya.</string>
+    <string name="frame_capture_permission_grant">Pilih folder</string>
+
+    <string name="equalizer_title">Equalizer Audio</string>
+    <string name="equalizer_scope_note">Equalizer ini bekerja di level sistem: begitu diaktifkan, ia langsung memengaruhi audio dari video di galeri ini dan sebagian besar aplikasi pemutar musik/video lain di HP ini. Untuk YouTube di dalam tab bawaan aplikasi ini, efeknya TIDAK selalu terdengar \\u2014 tergantung dukungan perangkat, karena Android membatasi cara efek audio bisa menjangkau audio dari WebView/browser. Equalizer ini juga TIDAK mengubah file video/audio itu sendiri, jadi mematikan equalizer akan langsung mengembalikan suara ke aslinya.</string>
+    <string name="equalizer_loudness_title">Loudness Enhancer (Pre-Amp)</string>
+    <string name="equalizer_bands_title">Equalizer 5-Band</string>
+    <string name="equalizer_preset_flat">Flat</string>
+    <string name="equalizer_preset_bass">Bass Boost</string>
+    <string name="equalizer_preset_treble">Treble Boost</string>
+    <string name="equalizer_preset_rock">Rock</string>
+    <string name="equalizer_preset_custom">Custom</string>
+
+    <string name="equalizer_bassboost_title">Bass Boost</string>
+    <string name="equalizer_virtualizer_title">Virtualizer (Surround)</string>
+    <string name="equalizer_reverb_title">Reverb</string>
+    <string name="equalizer_reverb_preset_none">Tanpa Reverb</string>
+    <string name="equalizer_reverb_preset_smallroom">Ruang Kecil</string>
+    <string name="equalizer_reverb_preset_mediumroom">Ruang Sedang</string>
+    <string name="equalizer_reverb_preset_largeroom">Ruang Besar</string>
+    <string name="equalizer_reverb_preset_mediumhall">Aula Sedang</string>
+    <string name="equalizer_reverb_preset_largehall">Aula Besar</string>
+    <string name="equalizer_reverb_preset_plate">Plate</string>
+
+    <string name="equalizer_notif_channel_name">Equalizer Audio Aktif</string>
+    <string name="equalizer_notif_title">Equalizer Audio sedang aktif</string>
+    <string name="equalizer_notif_idle">Menunggu audio diputar\u2026</string>
+    <string name="equalizer_notif_active_sessions">Aktif untuk %1$d audio yang sedang diputar</string>
+</resources>
