@@ -19,7 +19,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import com.assound.BuildConfig
+import com.elvira.gallery.BuildConfig
 import com.assound.audio.service.AudioProcessingService
 import com.assound.ui.components.*
 import com.assound.ui.theme.*

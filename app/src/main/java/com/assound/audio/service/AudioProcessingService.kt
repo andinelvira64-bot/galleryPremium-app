@@ -15,7 +15,7 @@ import android.util.Log
 import androidx.core.app.NotificationCompat
 import androidx.core.app.ServiceCompat
 import com.assound.MainActivity
-import com.assound.R
+import com.elvira.gallery.R
 import com.assound.audio.engine.AudioEngineController
 import com.assound.audio.engine.AudioSessionManager
 import com.assound.data.model.AdvancedAudioSettings
